@@ -25,13 +25,13 @@ html {
     background-color: black;
 }
 
-.container {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    background-color: white;
-    
-}
+        .container {
+            position: relative;
+            top: 0px;
+            left: 0px;
+            background-color: white;
+            
+        }
 
 
 
@@ -40,30 +40,34 @@ html {
 
 .page {
     position: relative;
-    width: 60%;
+    width: 70%;
     left: 10%;
-    height: 140vh; 
+    height: 1800px; 
     margin-bottom: 20px;
     margin-top: 20px;
-    transform: rotateY(10deg) skewY(-8deg);
+    transform: rotateY(10deg) skewY(-6deg);
 }
 
-.one {
-    background-color: orange;
-    
-}
+        .one {
+            background-color: orange;
+            
+        }
 
-.two {
-    background-color: yellow;
-    
-}
+        .two {
+            background-color: yellow;
+            
+        }
 
 
 /* page elements */
 
 .title {
-    margin: 18px;
-    position: relative;
+    
+    position: absolute;
+    height: 15%;
+    width: 90%;
+    top: 1%;
+    left: 1%;
     font-family: 'Monoton', mono;
     font-size: 7.5vh;
     color: white;
@@ -72,9 +76,11 @@ html {
 }
 
 .date {
-    position: relative;
+    position: absolute;
     width: calc(100%-36px);
-    margin: 18px;
+    height: 5%;
+    top: 17%;
+    left: 1%;
     font-family: mono;
     font-size: 3vh;
     color: white;
@@ -84,30 +90,84 @@ html {
 
 
 .headshots {
-    position: relative;
-    width: 90%;
+    position: absolute;
+    height: 10%;
     left: 5%;
-    top: 1%;
-}
-
-.headshot {
-    position: relative;
-    width: 10%;
-}
-
-.collage {
-}
-
-.thx {
-}
-
-.introvid {
-    position: relative;
-    width: 80%;
-    left: 10%;
-    margin: 18px;
+    bottom: 20%;
     
 }
+
+        .headshot {
+            position: relative;
+            width: 10%;
+            box-shadow: 8px 8px blue;
+        }
+
+
+.introvid {
+    position: absolute;;
+    height: 40%;
+    width: calc(40%*5/3);
+    top: 24%;
+    left: 10%;
+}
+
+
+
+.ads {
+    position: absolute;
+    height: 15%;
+    width: 90%;
+    left: 1%;
+    background-color: purple;
+    bottom: 6%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+    box-shadow: 8px 8px green;
+    
+    
+}
+
+        .ad {
+            position: relative;
+            height: 95%;
+            width: 30%;
+            bottom: 1%;
+            margin: 1%;
+        }
+        
+                .circular {
+                    background: url('images/business/circular.jpg');
+                    background-size: 100% 100%;
+                } 
+                
+                .business {
+                    background: url('images/business/business.jpg');
+                    background-size: 100% 100%;
+                }
+                    
+                .freetrial {
+                    background: url('images/business/freetrial.png');
+                    background-size: 100% 100%;
+                }
+
+
+.bottomtxt {
+    position: absolute;
+    height: 3.5%;
+    width: 80%;
+    left: 1%;
+    bottom: 1%;
+    font-family: mono;
+    font-size: 18px;
+    color: purple;
+    background-color: cyan;
+    box-shadow: 6px 6px grey;
+}
+
+
 /* youtube */
 
 .youtube-responsive-container {
