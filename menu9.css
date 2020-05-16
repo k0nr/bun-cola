@@ -80,7 +80,7 @@ font-size:30px;
         }
 
 
-/* page elements */
+/* page one elements */
 
 .title {
     
@@ -90,7 +90,7 @@ font-size:30px;
     top: 1%;
     left: 1%;
     font-family: 'Monoton', mono;
-    font-size: 7.5vh;
+    font-size: 4.5vw;
     color: white;
     background-color: black; 
     width: calc(100%-36px);
@@ -104,7 +104,7 @@ font-size:30px;
     top: 17%;
     left: 1%;
     font-family: mono;
-    font-size: 3vh;
+    font-size: 1.8vw;
     color: white;
     background-color: black;
     text-align: center;
@@ -191,6 +191,8 @@ font-size:30px;
    
 }
 
+/* page two */
+
 .toplist {
     position: absolute;
     left: 1%;
@@ -211,9 +213,33 @@ font-size:30px;
         top: 20%;
         left: 1%;
         background-color: green;
+        box-shadow: 6px 6px blue;
         
 }
 
+.watchlast {
+    position: absolute;
+    height: 4%;
+    width: 45%;
+    right: 3%;
+    bottom: 28%;
+    margin: 10px;
+    box-shadow: 6px 6px cyan;
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+.outro {
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+    margin: 10px;
+    width: 45%;
+    height: calc(45% * 0.6);
+    font-family: mono;
+    
+    
+}
 
 /* youtube */
 
