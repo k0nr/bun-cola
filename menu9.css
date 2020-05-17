@@ -239,6 +239,7 @@ font-size:30px;
     font-family: mono;
     font-size: 1vw;
     text-align: right;
+    box-shadow: 6px 6px cyan;
 }
 
 .credits {
@@ -275,6 +276,17 @@ font-size:30px;
     font-family: mono;
     
     
+}
+
+.bottom2 {
+    position: absolute;
+    width: 90%;
+    left: 1%;
+    height: 3%;
+    bottom: 1%;
+    margin: 10px;
+    font-family: mono;
+    font-size: 1vw;
 }
 
 /* youtube */
