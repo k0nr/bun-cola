@@ -16,6 +16,10 @@ html {
 
 }
 
+body {
+     cursor: url('images/cursor.cur'), default;
+}
+
 /* portrait mode warning */
 #warning-message { display: none; 
 background-color: black;
